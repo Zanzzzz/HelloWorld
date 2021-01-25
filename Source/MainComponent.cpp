@@ -17,7 +17,7 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (32.0f));
-    g.setColour (juce::Colours::green);
+    g.setColour (juce::Colours::orange);
     g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
 }
 
